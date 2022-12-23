@@ -1,0 +1,15 @@
+(datafile
+  (version 1)
+    (date "Thu Dec 22 16:14:02 2022")
+      (tool "pcb_calculator (6.0.9)")
+        (regulators
+          (regulator "LP2951"
+            (reg_vref 1.235)
+            (reg_iadj -0.02)
+            (reg_type 3terminal)
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "BasePlate")(type "KiCad")(uri "C:/Users/Greg/dev/loaf-plate/parts/BasePlate.kicad_sym")(options "")(descr ""))
+  (lib (name "ExtraParts")(type "KiCad")(uri "C:/Users/Greg/dev/loaf-plate/parts/ExtraParts.kicad_sym")(options "")(descr ""))
+  (lib (name "1-1775099-3")(type "KiCad")(uri "C:/Users/Greg/dev/loaf-plate/parts/1-1775099-3.kicad_sym")(options "")(descr ""))
+)
