@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ExtraParts")(type "KiCad")(uri "C:/Users/Greg/dev/loaf-plate/parts/ExtraParts.pretty")(options "")(descr ""))
+)
