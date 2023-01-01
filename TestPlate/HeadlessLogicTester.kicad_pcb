@@ -39,15 +39,15 @@
 
   (setup
     (stackup
-      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.SilkS" (type "Top Silk Screen") (color "White"))
       (layer "F.Paste" (type "Top Solder Paste"))
-      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (thickness 0.01))
       (layer "F.Cu" (type "copper") (thickness 0.035))
       (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
       (layer "B.Cu" (type "copper") (thickness 0.035))
-      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
-      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
       (copper_finish "HAL SnPb")
       (dielectric_constraints no)
     )
@@ -2423,7 +2423,7 @@
   (gr_text "LSB\n" (at 192.405 55.245) (layer "F.SilkS") (tstamp 9286c8b3-6227-456c-82b3-44d92f2458ce)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Loaf\nPlate\nTester" (at 199.39 86.36) (layer "F.SilkS") (tstamp c7065e0c-6692-451b-abc0-4750666b5b25)
+  (gr_text "TestPlate" (at 194.564 86.36) (layer "F.SilkS") (tstamp c7065e0c-6692-451b-abc0-4750666b5b25)
     (effects (font (size 5 5) (thickness 0.35)) (justify left))
   )
   (gr_text "Test\nInput" (at 107.315 122.555) (layer "F.SilkS") (tstamp fe619d8e-7b12-4857-905b-fb9ee094abc6)
